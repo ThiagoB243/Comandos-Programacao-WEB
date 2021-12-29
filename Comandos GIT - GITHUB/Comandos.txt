@@ -1,0 +1,25 @@
+git init
+
+git status
+
+git add (nome do arquivo)
+
+git add .    "Adiciona todos os arquivos unstaged"
+
+git commit -m "meu primeiro commit"
+
+git log
+
+git show
+
+git remote add origin https://github.com/ThiagoB243/Comandos-Programacao-WEB.git
+
+git push -u origin main
+
+git pull
+
+cd (nome do arquivo)
+
+dir
+
+cls
