@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    background-color: royalblue;
+}
+
+h2 {
+    font-size: 2rem;
+    color: greenyellow;
+}
+
+p {
+    color: white;
+    font-size: 1rem;
+}
+
+.text {
+    list-style-type: none;
+    display: inline;
+}
+
+#error {
+    margin: 2%;
+    color: red;
+}
+
+#list {
+    display: inline-table;
+}
+
+input:checked+.text {
+    text-decoration: line-through;
+}
+
+.list_item {
+    display: flex;
+    flex-direction: row;
+    color: lime;
+}

@@ -8,6 +8,8 @@ git add .    "Adiciona todos os arquivos unstaged"
 
 git commit -m "meu primeiro commit"
 
+git commit -m "Nova mensagem que vai substituir a anterior" --amend 
+
 git log
 
 git show
