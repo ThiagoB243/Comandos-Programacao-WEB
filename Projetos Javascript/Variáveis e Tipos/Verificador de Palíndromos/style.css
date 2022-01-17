@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background-color: blueviolet;
+}
+
+h2 {
+    color: coral;
+}
+
+#result {
+    color: darkred;
+    margin: 3%;
+}
+
+section p {
+    text-align: justify;
+    color: palegreen;
+}
+
+h4 {
+    color: ghostwhite;
+}
