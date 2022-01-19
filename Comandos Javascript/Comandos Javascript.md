@@ -95,4 +95,5 @@ mySet.delete(valor);
 
 Possui a propriedade size em vez de lenght.
 Não possui os métodos map, filter, reduce, etc.
+.
 
