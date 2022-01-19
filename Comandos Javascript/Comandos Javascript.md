@@ -55,4 +55,44 @@ const anonima = function (){
 }
 anonima();
 
+- Simplificação de uma função
+ 
+let simple = () =>{
+    //corpo da função
+}
+
+## Map
+
+Coleção de arrays com valores e chaves.
+
+# Estrutura
+
+const myMap = new Map();
+
+# Características
+
+myMap.set('chave', 'valor');
+myMap.get(chave);
+myMap.delete('valor');
+
+Pode ser iterado por loop for...of.
+Possui a propriedade lenght.
+(Mais fáceis de iterar que Objeto)
+
+## Set
+
+Coleção que armazena valores únicos.
+
+# Estrutura
+
+const mySet = new Set();
+
+# Características
+
+mySet.add(valor);
+mySet.has(valor); //Checa se um valor está presente no Set.
+mySet.delete(valor);
+
+Possui a propriedade size em vez de lenght.
+Não possui os métodos map, filter, reduce, etc.
 
