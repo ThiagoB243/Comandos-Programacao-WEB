@@ -109,4 +109,39 @@ const mySet = new Set();
 - Objeto Error: new Error(message, filename, linenumber)  Declara um novo erro.
      errorName.name    Cria um nome para o erro.
 
+## Javascript Assíncrono
+
+# Promises: 
+
+Realiza uma promessa para ser resolvida no futuro.
+
+- Estrutura
+
+const myPromise = new Promise((resolve, reject)=>{
+window.setTimeout(() => {
+  resolve(console.log('Resolvida!'));
+}, 2000);
+});
+
+- async: Determina uma função como assíncrona.
+
+- await: Para o código e aguarda a resolução de uma promessa.
+
+# API
+
+Realiza o intermédio dos dados entre servidores, sendo enviada em JSON.
+
+- Sintaxe:
+
+fetch(url, options)     // Retorna uma promise
+.then (response => response.json())
+
+- Operações
+
+GET: Pega dados da API.
+POST: Envia dados para API.
+DELETE: Deleta dados da API.
+PUT:
+
+
 
