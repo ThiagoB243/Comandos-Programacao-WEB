@@ -71,12 +71,12 @@ const myMap = new Map();
 
 # Características
 
-myMap.set('chave', 'valor');
-myMap.get(chave);
-myMap.delete('valor');
+- myMap.set('chave', 'valor');
+- myMap.get(chave);
+- myMap.delete('valor');
 
-Pode ser iterado por loop for...of.
-Possui a propriedade lenght.
+- Pode ser iterado por loop for...of.
+- Possui a propriedade lenght.
 (Mais fáceis de iterar que Objeto)
 
 ## Set
@@ -89,11 +89,24 @@ const mySet = new Set();
 
 # Características
 
-mySet.add(valor);
-mySet.has(valor); //Checa se um valor está presente no Set.
-mySet.delete(valor);
+- mySet.add(valor);
+- mySet.has(valor); //Checa se um valor está presente no Set.
+- mySet.delete(valor);
 
-Possui a propriedade size em vez de lenght.
-Não possui os métodos map, filter, reduce, etc.
-.
+- Possui a propriedade size em vez de lenght.
+- Não possui os métodos map, filter, reduce, etc.
+
+## Debugging e Error Handling
+
+- throw: Caso o código um comando não seja concluído lança uma resposta para o console como um erro.
+
+- try: Executa uma função ou comando.
+
+- catch (e): Caso uma função try contenha um erro, este erro será capturado.
+
+- finally: Executa depois das verificações por erros, independentemente se ocorreu um erro ou não.
+
+- Objeto Error: new Error(message, filename, linenumber)  Declara um novo erro.
+     errorName.name    Cria um nome para o erro.
+
 
