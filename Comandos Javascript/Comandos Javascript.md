@@ -65,11 +65,11 @@ let simple = () =>{
 
 Coleção de arrays com valores e chaves.
 
-# Estrutura
+### Estrutura
 
 const myMap = new Map();
 
-# Características
+### Características
 
 - myMap.set('chave', 'valor');
 - myMap.get(chave);
@@ -83,11 +83,11 @@ const myMap = new Map();
 
 Coleção que armazena valores únicos.
 
-# Estrutura
+### Estrutura
 
 const mySet = new Set();
 
-# Características
+### Características
 
 - mySet.add(valor);
 - mySet.has(valor); //Checa se um valor está presente no Set.
@@ -111,7 +111,7 @@ const mySet = new Set();
 
 ## Javascript Assíncrono
 
-# Promises: 
+### Promises: 
 
 Realiza uma promessa para ser resolvida no futuro.
 
@@ -127,7 +127,7 @@ window.setTimeout(() => {
 
 - await: Para o código e aguarda a resolução de uma promessa.
 
-# API
+## API
 
 Realiza o intermédio dos dados entre servidores, sendo enviada em JSON.
 
@@ -143,5 +143,29 @@ POST: Envia dados para API.
 DELETE: Deleta dados da API.
 PUT:
 
+## Orientação a objetos
 
+### Pilares:
 
+- Abstração: Generalização e simplificar um conceito
+
+- Herança: Herdar propriedades e métodos dos objetos pais.
+
+- Encapsulamento: Cada classe é independente do restante do código.
+
+- Polimorfismo: Possuem a mesma classe pai, porém tem métodos diferentes.
+
+### Protótipos 
+
+Todos os objetos possuem métodos ou propriedade herdados do protótipo. Quando chamamos a propriedade de um objeto, está propriedade será buscada primeiro no próprio objeto, em seguida no protótipo do objeto e por fim no protótipo do protótipo, caso nada seja encontrado o programa retorna null.
+
+##### Shadowing properties
+
+Ocorre quando se nomeia uma propriedade do objeto com o mesmo nome de uma propriedade do protótipo do objeto ou do protótipo do protótipo do objeto. Assim pela ordem de checagem do protótipo, a nova propriedade será a retornada.
+
+### Classes
+
+- Sempre possuem um construtor, getters e setters. 
+- Constructor: 
+- Método super().
+- Método específico.
