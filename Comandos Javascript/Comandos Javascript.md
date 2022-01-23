@@ -169,3 +169,35 @@ Ocorre quando se nomeia uma propriedade do objeto com o mesmo nome de uma propri
 - Constructor: 
 - Método super().
 - Método específico.
+
+## Map, Filter e Reduce
+
+### Map
+
+Função que cria um novo array e realiza operações indicadas em uma função em ordem crescente.
+
+#### Estrutura
+
+array.map(função callback a ser executada, apontar um valor na função);
+
+#### Diferença para o forEach
+
+O forEach não cria um array secundário e precisa de uma variável para alocar seu resultado.
+
+### Filter
+
+Cria um novo array que filtra o conteúdo de acordo com a função.
+
+#### Estrutura
+
+array.filter(função callback a ser executada, apontar um valor na função);
+
+### Reduce
+
+Executa uma função em todos os elementos de um array e retorna apenas um valor.
+
+#### Estrutura
+
+array.reduce(função callback a ser executada a partir do acumulador, valor que o retorno irá atuar)
+
+const callbackFn = function(accumulator, currentValue, index, array){}
