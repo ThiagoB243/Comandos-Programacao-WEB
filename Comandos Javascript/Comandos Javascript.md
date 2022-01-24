@@ -201,3 +201,58 @@ Executa uma função em todos os elementos de um array e retorna apenas um valor
 array.reduce(função callback a ser executada a partir do acumulador, valor que o retorno irá atuar)
 
 const callbackFn = function(accumulator, currentValue, index, array){}
+
+## DOM
+
+### O que é?
+
+Document Object Model é um modelo padrão de acesso e modifição dos elementos HTML.
+
+#### BOM
+
+Browser Object Model é o modelo padrão de acesso e modificação da janela de páginas WEB, onde o DOM está incluido.
+
+### Selecionando elementos HTML
+
+Utiliza-se a palavra document seguida do tipo de elemento que se deseja selecionar e seu nome de marcação, como:
+
+- getElementById();
+- getElementByTagName();
+- getElementByClassName();
+- querySelectorAll();
+
+### Adicionar e deletar elementos HTML
+
+Utiliza-se a palavra document seguida de:
+
+- createElement(element);
+- removeChild(element);
+- appendChild(element);
+- replaceChild(element);
+
+### Adicionar e remover classes ao elemento
+
+Para utilizar essa opção primeiro é necessário adicionar ao JS uma variavel que aponta para o elemento que deseja ser personalizado.
+
+- elemento.classList.add("nome-classe");
+- elemento.classList.remove("nome-classe");
+- elemento.classList.toggle("nome-classe");
+
+### Adicionar e remover elementos ao CSS
+
+Utiliza-se a palavra document seguida de um selecionador de elemento HTML:
+
+- document.getElementsByTagName("p").style.color = "orange";
+
+### Eventos do Javascript
+
+- mouseover e mouseout
+- click e dbclick
+- change e load
+
+#### Função Event listener
+
+Cria um evento acionado após determinada ação.
+
+- elemento.addEventListener("tipo evento", função);
+
